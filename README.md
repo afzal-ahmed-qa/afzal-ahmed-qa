@@ -23,6 +23,6 @@ cart a negative total.
 Tools I use day to day: Playwright, TypeScript, Postman and Newman, Jira, Git, GitHub Actions,
 Chrome DevTools and axe for accessibility.
 
-My CV is here: [Afzal_Ahmed_QA_CV.pdf](cv/Afzal_Ahmed_QA_CV.pdf). I'm open to QA roles in Munich
-and to remote or hybrid teams; the easiest way to reach me is through
-[LinkedIn](https://www.linkedin.com/in/afzal-ahmed-217395b3/).
+My CV is here: [Afzal_Ahmed_QA_CV.pdf](cv/Afzal_Ahmed_QA_CV.pdf). I'm available for remote QA roles
+anywhere in Germany, and for hybrid or on-site roles in Munich. You can reach me at
+afzal.ahmed0913@gmail.com or on [LinkedIn](https://www.linkedin.com/in/afzal-ahmed-217395b3/).
