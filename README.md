@@ -20,8 +20,9 @@ Test strategy, UI and API test plans, 88 test cases, a traceability matrix and d
 an e-commerce site. Every case was executed; one of the bugs lets a negative quantity give the
 cart a negative total.
 
-Tools I use day to day: Playwright, TypeScript, Postman and Newman, Jira, Git, GitHub Actions,
-Chrome DevTools and axe for accessibility.
+Tools I use day to day: Playwright, TypeScript, Postman and Newman, Git, GitHub Actions, Chrome
+DevTools and axe for accessibility. For tracking work and defects I've used Jira, Azure DevOps,
+ClickUp, Asana and Confluence.
 
 My CV is here: [Afzal_Ahmed_QA_CV.pdf](cv/Afzal_Ahmed_QA_CV.pdf). I'm available for remote QA roles
 anywhere in Germany, and for hybrid or on-site roles in Munich. You can reach me at
