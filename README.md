@@ -10,6 +10,12 @@ UI and API tests for demoqa.com with Playwright and TypeScript, using the Page O
 End-to-end user journeys, API-based test setup, accessibility and visual checks. It runs in
 GitHub Actions and publishes a [report with a video of every test](https://afzal-ahmed-qa.github.io/playwright-typescript-e2e-framework/).
 
+**[toolshop-api-tests-postman](https://github.com/afzal-ahmed-qa/toolshop-api-tests-postman)**
+API tests for a realistic online shop with JWT login, customer and admin roles, a cart and a real
+checkout. Covers the account lifecycle, purchase flow and access control, and found seven defects,
+including products that can be edited without logging in and customers who can mark their own
+orders as completed. [Latest report](https://afzal-ahmed-qa.github.io/toolshop-api-tests-postman/).
+
 **[petstore-api-tests-postman](https://github.com/afzal-ahmed-qa/petstore-api-tests-postman)**
 A Postman collection for the Swagger Petstore covering all 20 endpoints: full CRUD flows, negative
 and data-driven tests, run daily with Newman. It found that the API accepts any password and
