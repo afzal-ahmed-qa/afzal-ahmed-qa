@@ -10,6 +10,13 @@ UI and API tests for demoqa.com with Playwright and TypeScript, using the Page O
 End-to-end user journeys, API-based test setup, accessibility and visual checks. It runs in
 GitHub Actions and publishes a [report with a video of every test](https://afzal-ahmed-qa.github.io/playwright-typescript-e2e-framework/).
 
+**[playwright-saucedemo-cross-browser](https://github.com/afzal-ahmed-qa/playwright-saucedemo-cross-browser)**
+The full buying journey of a web shop, from login to order confirmation, tested with Playwright and
+TypeScript on Chrome, Firefox and Safari on an iPhone. Checks the item total, tax and order total
+against the shop's own prices, and keeps four defects as expected-failure tests, including a
+checkout where the customer cannot finish the order. Each browser runs as its own CI job and the
+results are merged into [one report](https://afzal-ahmed-qa.github.io/playwright-saucedemo-cross-browser/).
+
 **[toolshop-api-tests-postman](https://github.com/afzal-ahmed-qa/toolshop-api-tests-postman)**
 API tests for a realistic online shop with JWT login, customer and admin roles, a cart and a real
 checkout. Covers the account lifecycle, purchase flow and access control, and found seven defects,
