@@ -13,6 +13,19 @@ the shop in Docker, runs the suite in four shards and publishes [one merged repo
 It found 17 documented defects, including product creation without login and, in the shop's
 bug build, password hashes readable by any customer.
 
+**[selenium-java-testng-framework](https://github.com/afzal-ahmed-qa/selenium-java-testng-framework)**
+UI tests for the OrangeHRM demo with Selenium 4, Java 21 and TestNG: Page Object Model, parallel
+runs with one browser per thread, explicit waits only, data-driven login cases and clean-up of test
+data through the app's REST API. Runs on Chrome and Firefox in GitHub Actions every night, with
+[reports and failure screenshots](https://afzal-ahmed-qa.github.io/selenium-java-testng-framework/).
+
+**[sql-database-testing](https://github.com/afzal-ahmed-qa/sql-database-testing)**
+Data-quality and database tests for the Pagila sample database on PostgreSQL 18: schema and
+constraints, integrity, business rules, reconciliation of reports against raw payments, window-function
+checks and write tests in rolled-back transactions. Found eight real defects, including the same copy
+rented out twice at once and a sales report that counts revenue up to three times.
+[Latest report](https://afzal-ahmed-qa.github.io/sql-database-testing/).
+
 **[playwright-typescript-e2e-framework](https://github.com/afzal-ahmed-qa/playwright-typescript-e2e-framework)**
 UI and API tests for demoqa.com with Playwright and TypeScript, using the Page Object Model.
 End-to-end user journeys, API-based test setup, accessibility and visual checks. It runs in
@@ -41,8 +54,10 @@ Test strategy, UI and API test plans, 88 test cases, a traceability matrix and d
 an e-commerce site. Every case was executed; one of the bugs lets a negative quantity give the
 cart a negative total.
 
-Tools I use day to day: Playwright, TypeScript, Postman and Newman, Git, GitHub Actions, Docker, Chrome
-DevTools and axe for accessibility. For tracking work and defects I've used Jira, Azure DevOps,
+Tools I use day to day: Playwright, TypeScript, Selenium with Java and TestNG, Postman and Newman,
+SQL and PostgreSQL, Python and pytest, Git, GitHub Actions, Docker, Chrome
+DevTools and axe for accessibility, and Claude, GitHub Copilot and ChatGPT to speed up test design
+and scripting. For tracking work and defects I've used Jira, Azure DevOps,
 ClickUp, Asana and Confluence.
 
 My CV is here: [Afzal_Ahmed_QA_CV.pdf](cv/Afzal_Ahmed_QA_CV.pdf). I'm available for remote QA work with
