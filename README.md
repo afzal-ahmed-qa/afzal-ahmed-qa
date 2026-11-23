@@ -5,6 +5,14 @@ applications, mostly on the manual side: test design, exploratory testing, bug r
 working with developers in Jira. Over the past while I've been moving into API testing and UI
 automation, and these are the projects that show where I am now.
 
+**[toolshop-playwright-framework](https://github.com/afzal-ahmed-qa/toolshop-playwright-framework)**
+A Playwright and TypeScript framework for a realistic web shop with customers, admins and a
+four-step checkout: 84 UI, API, accessibility and visual tests. Typed API clients check every
+response against a schema, and UI results are verified through the API. CI starts its own copy of
+the shop in Docker, runs the suite in four shards and publishes [one merged report](https://afzal-ahmed-qa.github.io/toolshop-playwright-framework/).
+It found 17 documented defects, including product creation without login and, in the shop's
+bug build, password hashes readable by any customer.
+
 **[playwright-typescript-e2e-framework](https://github.com/afzal-ahmed-qa/playwright-typescript-e2e-framework)**
 UI and API tests for demoqa.com with Playwright and TypeScript, using the Page Object Model.
 End-to-end user journeys, API-based test setup, accessibility and visual checks. It runs in
@@ -33,7 +41,7 @@ Test strategy, UI and API test plans, 88 test cases, a traceability matrix and d
 an e-commerce site. Every case was executed; one of the bugs lets a negative quantity give the
 cart a negative total.
 
-Tools I use day to day: Playwright, TypeScript, Postman and Newman, Git, GitHub Actions, Chrome
+Tools I use day to day: Playwright, TypeScript, Postman and Newman, Git, GitHub Actions, Docker, Chrome
 DevTools and axe for accessibility. For tracking work and defects I've used Jira, Azure DevOps,
 ClickUp, Asana and Confluence.
 
