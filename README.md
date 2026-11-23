@@ -1,7 +1,7 @@
 ### Hi, I'm Afzal
 
-I'm a QA engineer based in Germany. I've spent more than ten years testing web and mobile
-applications, mostly on the manual side: test design, exploratory testing, bug reports and
+I'm a QA engineer with more than ten years in IT delivery and quality assurance, most recently
+testing web, SaaS and AI-enabled products: test design, exploratory testing, bug reports and
 working with developers in Jira. Over the past while I've been moving into API testing and UI
 automation, and these are the projects that show where I am now.
 
@@ -45,6 +45,6 @@ Tools I use day to day: Playwright, TypeScript, Postman and Newman, Git, GitHub 
 DevTools and axe for accessibility. For tracking work and defects I've used Jira, Azure DevOps,
 ClickUp, Asana and Confluence.
 
-My CV is here: [Afzal_Ahmed_QA_CV.pdf](cv/Afzal_Ahmed_QA_CV.pdf). I'm available for remote QA roles
-anywhere in Germany, and for hybrid or on-site roles in Munich. You can reach me at
+My CV is here: [Afzal_Ahmed_QA_CV.pdf](cv/Afzal_Ahmed_QA_CV.pdf). I'm available for remote QA work with
+European and US teams, freelance or full-time. You can reach me at
 afzal.ahmed0913@gmail.com or on [LinkedIn](https://www.linkedin.com/in/afzal-ahmed-217395b3/).
